@@ -16,10 +16,10 @@ const Hero = () => {
         <Navbar />
         <div className="flex flex-col gap-16 lg:gap-0 relative mt-12">
           <div className="lg:hidden w-12 h-12 absolute top-1/4 left-4 lg:top-4 lg:left-4">
-            <Image src={Globe} />
+            <Image src={Globe} alt=""/>
           </div>
           <div className="hidden lg:block w-12 h-12 absolute top-1/4 right-8">
-            <Image src={Atom} />
+            <Image src={Atom} alt=""/>
           </div>
 
           <div className="flex flex-col lg:flex-row items-center">
@@ -34,12 +34,12 @@ const Hero = () => {
                 />
               </h1>
               <p className="font-medium text-center lg:text-left leading-[2rem] lg:text-2xl 2xl:text-4xl 2xl:leading-[2.875rem]">
-              Elite Council Entourage is a non-profit organization committed to empowering students in uncovering and pursuing their professional passions.<br></br> In alignment with our motto "One for All, All for Success!", our mission is to equip them with tools, guidance, and unique opportunities for creative and personalized professional growth.
+              Elite Council Entourage is a non-profit organization committed to empowering students in uncovering and pursuing their professional passions.<br></br> In alignment with our motto One for All, All for Success!, our mission is to equip them with tools, guidance, and unique opportunities for creative and personalized professional growth.
 
               </p>
               <div className="flex items-end">
                 <div className="relative h-[67px] bounce w-[67px] 2xl:w-[101px] 2xl:h-[114px]">
-                  <Image src={Arrow} layout="fill" />
+                  <Image src={Arrow} layout="fill" alt="" />
                 </div>
                 <div className="mb-[-50px] 2xl:mb-[-110px] ">
                   <Purpulebutton title={"Join Now!"}  h={form_url}/>
@@ -49,7 +49,7 @@ const Hero = () => {
 
             <div className="flex-1 pt-20 lg:pt-0 order-first lg:order-last">
               <Tilt>
-                <Image src={Qiskit} />
+                <Image src={Qiskit} alt=""/>
               </Tilt>
             </div>
           </div>
@@ -57,10 +57,10 @@ const Hero = () => {
        
 
           <div className="w-12 h-12 absolute bottom-16 left-8">
-            <Image src={Atom} />
+            <Image src={Atom} alt=""/>
           </div>
           <div className="hidden lg:block w-12 h-12 absolute bottom-1/4 right-8">
-            <Image src={Globe} />
+            <Image src={Globe} alt=""/>
           </div>
           
         </div>

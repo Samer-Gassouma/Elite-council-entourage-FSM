@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import React, { useRef } from 'react';
 import YellowButton from "../shared/YellowButton";
 import Image from "next/image";
 import RightArrow from "../../images/sectionsAssets/rightArrow.png";
@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Team } from "./data";
 
-const ourTeam = () => {
+const OurTeam = () => {
   const swiperRef = useRef(null);
 
   return (
@@ -91,4 +91,4 @@ const ourTeam = () => {
   );
 };
 
-export default ourTeam;
+export default OurTeam;
