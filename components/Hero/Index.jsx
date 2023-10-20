@@ -14,7 +14,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen hero-bg">
       <div className="section-container pb-24 md:pb-0">
         <Navbar />
-        <div className="flex flex-col gap-16 lg:gap-0 relative mt-12">
+        <div className="flex flex-col gap-16 lg:gap-0 relative ">
           <div className="lg:hidden w-12 h-12 absolute top-1/4 left-4 lg:top-4 lg:left-4">
             <Image src={Globe} alt=""/>
           </div>
@@ -47,7 +47,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="flex-1 pt-20 lg:pt-0 order-first lg:order-last">
+            <div className="flex-1 lg:pt-0 order-first lg:order-last">
               <Tilt>
                 <Image src={Qiskit} alt=""/>
               </Tilt>
