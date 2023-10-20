@@ -6,7 +6,7 @@ import NavLinks from "./links";
 const Navbar = () => {
   const [isNavToggled, setIsNavToggled] = useState(false);
   return (
-    <header className="p-8 lg:pt-1">
+    <header className="p-5 lg:pt-1">
       {/* Desktop menu */}
       <div className="flex justify-between items-center p-4">
         <ul className="hidden lg:flex items-center text-xl gap-16 font-medium text-qiskit-white 2xl:text-4xl 2xl:gap-24">

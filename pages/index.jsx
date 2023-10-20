@@ -4,7 +4,11 @@ import Services from "../components/Services/Index";
 import AboutUs from "../components/AboutUs/Index";
 import Footer from "../components/Footer/Index";
 import Hero from "../components/Hero/Index";
+
+
+
 export default function Home() {
+  
   return (
     <>
       <Head>
@@ -17,7 +21,6 @@ export default function Home() {
         <AboutUs />
         <Services />
         <OurTeam/>
-        
         
       </main>
       <Footer />
