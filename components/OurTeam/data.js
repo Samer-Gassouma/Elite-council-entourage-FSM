@@ -38,38 +38,6 @@ export const Team = [
     role: "Sponsoring",
   },
   
-  {
-    image: img4,
-    name: "Samer Gassouma",
-    role: "responsable des etudiants du 2eme année",
-  },
-  {
-    image: img5,
-    name: "Hadil Fourati",
-    role: "ressource humaine",
-  },
-  {
-    image: img3,
-    name: "Wyem Baccari",
-    role: "responsable des nouveaux étudiants.",
-  },
-  {
-    image: img1,
-    name: "Dibej Habib",
-    role: "Sponsoring",
-  },
-  {
-    image: img2,
-    name: "Samah Dhemaied",
-    role: "Présidente",
-  },
- 
-  
-  {
-    image: img6,
-    name: "Raslen Sebai",
-    role: "Media",
-  },
 
   
 ];
