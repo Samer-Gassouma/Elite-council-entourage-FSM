@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect, useState } from 'react';
 import YellowButton from "../shared/YellowButton";
 import Image from "next/image";
 import RightArrow from "../../images/sectionsAssets/rightArrow.png";
@@ -10,12 +10,32 @@ import "swiper/css";
 import { Team } from "./data";
 
 const OurTeam = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const swiperRef = useRef(null);
 
   return (
     <section id="Team" className="relative section-container">
       <div className="mb-12 lg:mb-0">
-        <SectionTitle title={"Our Team"} /> 
+      {isMobile ? (
+        <SectionTitle title={"Our Team(Swipe Left/Right)"} /> 
+      ) : (
+        <SectionTitle title={"Our Team "} /> 
+      )}
       </div>
 
       
