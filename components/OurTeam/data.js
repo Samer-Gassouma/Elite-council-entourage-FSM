@@ -1,9 +1,9 @@
 import img1 from "../../images/Team/Habib.jpg";
-import img2 from "../../images/Team/Samah.jpg";
-import img3 from "../../images/Team/Wyem.jpg";
+import img2 from "../../images/Team/Samah.jpeg";
+import img3 from "../../images/Team/Wyem.jpeg";
 import img4 from "../../images/Team/Samer.jpg";
 import img5 from "../../images/Team/Hadil.jpg";
-import img6 from "../../images/Team/Raslen.jpg";
+import img6 from "../../images/Team/Raslen.jpeg";
 export const Team = [
   {
     image: img5,
